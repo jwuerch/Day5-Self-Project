@@ -3,6 +3,7 @@ header {
   border:1px solid #000;
   height:269px;
   border-left:0px;
+  width:100%;
 }
 
 .col-sm-4 {
@@ -36,7 +37,7 @@ h4:hover {
 .container {
   float:left;
   padding-left:180px;
-  max-width:1500px;
+  padding-right:0;
 }
 
 .carousel-title-box {
@@ -64,6 +65,8 @@ h4:hover {
 .navbar-default {
   margin-bottom:0px;
   border-radius:0;
+  z-index:999;
+  max-width:1200px;
 }
 
 
@@ -110,4 +113,19 @@ img {
 
 #carousel-container {
   max-width: 989px;
+}
+
+@media screen and (max-width:1200px) {
+  .container{
+    width:100%;
+    padding-right:0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .container{
+    max-width:1200px;
+    margin:0 auto;
+    width:1200px;;
+  }
 }
