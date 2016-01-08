@@ -41,6 +41,11 @@ h4 {
   color:#fff;
 }
 
+h5 {
+  font-size:17px;
+  margin:0 auto;
+}
+
 h4:hover {
   color:#111;
   text-decoration:underline;
@@ -65,13 +70,12 @@ h4:hover {
 }
 
 #left-sidebar {
-  border: 1px solid #000;
   height: 1000px;
   position:fixed;
   width:180px;
   padding-top:10px;
   background-color:#FDFDFE;
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2), inset 0px 0px 2px 1px #fff;
+  box-shadow: 0px 12px 20px 1px rgba(0,0,0,0.2), inset 0px 0px 2px 1px #fff;
   z-index:100;
 }
 
@@ -111,6 +115,9 @@ img {
   border: 1px solid #fff;
 }
 
+.left-sidebar-bkg {
+  background-color:#FDFDFE;
+}
 .form-control {
   padding-left:5px;
   padding-right:5px;
@@ -122,6 +129,7 @@ img {
 
 .navbar-brand {
   color:#fff !important;
+  border-bottom:3px solid #111;
 }
 .navbar-brand:hover {
   color:#777 !important;
