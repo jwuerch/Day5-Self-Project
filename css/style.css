@@ -1,7 +1,8 @@
 
 header {
   border:1px solid #000;
-  height:250px;
+  height:269px;
+  border-left:0px;
 }
 
 .col-sm-4 {
@@ -12,6 +13,11 @@ header {
 .row {
   margin-left:0;
   margin-right:0;
+}
+
+.col-md-4 {
+  height:278px;
+  padding:0;
 }
 
 .container {
@@ -83,5 +89,5 @@ img {
 }
 
 #carousel-container {
-  max-width:974px;
+  max-width: 788px;
 }
