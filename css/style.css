@@ -28,7 +28,7 @@ header {
 
 #left-sidebar {
   border: 1px solid #000;
-  height: 500px;
+  height: 1000px;
   position:fixed;
   width:180px;
   padding-top:10px;
@@ -46,4 +46,8 @@ header {
 img {
   margin-bottom:5px;
   border: 1px solid #d1d1d1;
+}
+
+.form-control {
+  pad
 }
