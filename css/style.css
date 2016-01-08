@@ -5,6 +5,7 @@ header {
   border-left:0px;
   width:100%;
   margin-top:-3px;
+  background-color:#F0F3F5;
 }
 
 .col-sm-4 {
@@ -14,11 +15,16 @@ header {
   background-color: #F0F3F5;
 }
 
+
 .widget-title-inner {
   text-align:center;
 }
 .carousel-left-img {
   border-left:0px solid #fff;
+}
+
+#outside-container {
+  padding-left:0;
 }
 
 .row {
@@ -28,6 +34,10 @@ header {
 
 #carousel-row {
   background-color: #FDFDFE
+}
+
+#row-1 {
+  margin-top:10px;
 }
 
 .col-inner {
@@ -60,6 +70,7 @@ h4:hover {
   float:left;
   padding-left:180px;
   padding-right:0;
+  background:#F0F3F5;
 }
 
 .carousel-title-box {
@@ -75,7 +86,7 @@ h4:hover {
 }
 
 #left-sidebar {
-  height: 1000px;
+  height: 1500px;
   position:fixed;
   width:180px;
   padding-top:10px;
@@ -83,6 +94,7 @@ h4:hover {
   box-shadow: 0px 20px 20px 1px rgba(0,0,0,0.2), inset 0px 0px 2px 1px #fff;
   z-index:100;
   border-left:1px solid #d1d1d1;
+  margin-top:50px;
 }
 
 .navbar-default {
@@ -160,8 +172,12 @@ img {
 }
 
 #carousel-header {
-  margin-top:10px;
+  margin-top:60px;
   margin-left:10px;
+}
+
+#col-sm-4-top {
+  margin-top:10px;
 }
 
 #carousel-container {
@@ -221,6 +237,18 @@ padding-left:0;
   .container{
     max-width:1200px;
     margin:0 auto;
-    width:1200px;;
+    width:1200px;
+  }
+
+  .navbar-default {
+    margin: 0 auto;
+  }
+
+  #left-sidebar {
+    margin:0 auto;
+  }
+
+  #outside-container {
+    margin:0 auto;
   }
 }
