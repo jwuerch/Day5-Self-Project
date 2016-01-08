@@ -59,8 +59,9 @@ h4:hover {
   color:#fffff4;
 }
 
-#right-sidebar {
-  height:500px;
+.col-text {
+  height:149px;
+  margin-top:5px;
 }
 
 #left-sidebar {
@@ -84,17 +85,12 @@ h4:hover {
   border:none;
 }
 
-.transparent-box {
-  opacity:.4;
-  height:200px;
-  width:250px;
-}
 
 .col-img {
   width:100%;
   border-radius:3px;
   border:1px solid #d1d1d1;
-  height:209px;
+  height:190px;
 }
 
 .col-img:hover {
