@@ -20,11 +20,26 @@ header {
   padding:0;
 }
 
+h4 {
+  color:#fff;
+}
+
+h4:hover {
+  color:#111;
+  text-decoration:underline;
+
+}
 .container {
   float:left;
   padding-left:180px;
   max-width:1500px;
+}
 
+.carousel-title-box {
+  margin-top: -60px;
+  padding-left:10px;
+  padding-right:10px;
+  color:#fffff4;
 }
 
 #right-sidebar {
