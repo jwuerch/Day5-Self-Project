@@ -85,7 +85,16 @@ h4:hover {
 
 }
 
+.col-img {
+  width:100%;
+  border-radius:3px;
+  border:1px solid #d1d1d1;
+  height:209px;
+}
 
+.col-img:hover {
+  opacity:.9;
+}
 
 #carousel-container {
   padding-left: 0;
@@ -151,6 +160,15 @@ img {
 .col-title {
   padding-top:0;
   margin-top:0;
+  height:60px;
+}
+
+h3 {
+  font-size:21px;
+}
+
+h3:hover {
+  text-decoration:underline;
 }
 
 /* Media Queries */
