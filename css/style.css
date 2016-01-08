@@ -82,7 +82,12 @@ h4:hover {
   background:#111;
   color:#fff;
   border:none;
+}
 
+.transparent-box {
+  opacity:.4;
+  height:200px;
+  width:250px;
 }
 
 .col-img {
