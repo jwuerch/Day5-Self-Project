@@ -14,3 +14,12 @@ header {
   border:1px solid #000;
   height:500px;
 }
+
+.row {
+  margin-left:0;
+  margin-right:0;
+}
+
+.container {
+  float:left;
+}
