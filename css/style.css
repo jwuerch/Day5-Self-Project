@@ -31,3 +31,8 @@ header {
   border:1px solid #000;
   height:500px;
 }
+
+.navbar-default {
+  margin-bottom:0px;
+  border-radius:0;
+}
