@@ -10,7 +10,7 @@ header {
   height:200px;
 }
 
-.col-sm-4 {
+.col-sm-3 {
   border:1px solid #000;
   height:500px;
 }
@@ -25,4 +25,9 @@ header {
   padding-left:240px;
   max-width:1500px;
 
+}
+
+#right-sidebar {
+  border:1px solid #000;
+  height:500px;
 }
