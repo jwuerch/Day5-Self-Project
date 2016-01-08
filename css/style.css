@@ -9,6 +9,8 @@ header {
 .col-sm-4 {
   border:1px solid #000;
   height:500px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 .row {
@@ -18,6 +20,11 @@ header {
 
 #carousel-row {
   background-color: #FDFDFE
+}
+
+.col-inner {
+  box-shadow: rgba(0,0,0, 0.0980392) 0px 3px 12px 1px;
+  height:468px;
 }
 
 .col-md-4 {
