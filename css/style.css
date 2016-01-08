@@ -1,0 +1,16 @@
+#left-sidebar {
+  border: 1px solid #000;
+  height: 500px;
+  position:fixed;
+  width:240px;
+}
+
+header {
+  border:1px solid #000;
+  height:200px;
+}
+
+.col-sm-3 {
+  border:1px solid #000;
+  height:500px;
+}
