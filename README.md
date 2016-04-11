@@ -1,7 +1,5 @@
 # _Personal Portfolio_
 
-#### _My Personal Portfolio -  Jan 8, 2016_
-
 #### By _**Jason Wuerch**_
 
 ## Description
